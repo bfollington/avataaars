@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -14,7 +14,7 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var Eyepatch_1 = require("./Eyepatch");
+var options_1 = require("../../options");
 var Hat_1 = require("./Hat");
 var Hijab_1 = require("./Hijab");
 var LongHairBigHair_1 = require("./LongHairBigHair");
@@ -23,7 +23,6 @@ var LongHairBun_1 = require("./LongHairBun");
 var LongHairCurly_1 = require("./LongHairCurly");
 var LongHairCurvy_1 = require("./LongHairCurvy");
 var LongHairDreads_1 = require("./LongHairDreads");
-var LongHairFrida_1 = require("./LongHairFrida");
 var LongHairFro_1 = require("./LongHairFro");
 var LongHairFroBand_1 = require("./LongHairFroBand");
 var LongHairMiaWallace_1 = require("./LongHairMiaWallace");
@@ -45,11 +44,6 @@ var ShortHairSides_1 = require("./ShortHairSides");
 var ShortHairTheCaesar_1 = require("./ShortHairTheCaesar");
 var ShortHairTheCaesarSidePart_1 = require("./ShortHairTheCaesarSidePart");
 var Turban_1 = require("./Turban");
-var WinterHat1_1 = require("./WinterHat1");
-var WinterHat2_1 = require("./WinterHat2");
-var WinterHat3_1 = require("./WinterHat3");
-var WinterHat4_1 = require("./WinterHat4");
-var options_1 = require("../../options");
 var Top = /** @class */ (function (_super) {
     __extends(Top, _super);
     function Top() {
@@ -59,21 +53,15 @@ var Top = /** @class */ (function (_super) {
         var children = this.props.children;
         return (React.createElement(options_1.Selector, { defaultOption: LongHairStraight_1.default, option: options_1.TopOption },
             React.createElement(NoHair_1.default, null, children),
-            React.createElement(Eyepatch_1.default, null, children),
             React.createElement(Hat_1.default, null, children),
             React.createElement(Hijab_1.default, null, children),
             React.createElement(Turban_1.default, null, children),
-            React.createElement(WinterHat1_1.default, null, children),
-            React.createElement(WinterHat2_1.default, null, children),
-            React.createElement(WinterHat3_1.default, null, children),
-            React.createElement(WinterHat4_1.default, null, children),
             React.createElement(LongHairBigHair_1.default, null, children),
             React.createElement(LongHairBob_1.default, null, children),
             React.createElement(LongHairBun_1.default, null, children),
             React.createElement(LongHairCurly_1.default, null, children),
             React.createElement(LongHairCurvy_1.default, null, children),
             React.createElement(LongHairDreads_1.default, null, children),
-            React.createElement(LongHairFrida_1.default, null, children),
             React.createElement(LongHairFro_1.default, null, children),
             React.createElement(LongHairFroBand_1.default, null, children),
             React.createElement(LongHairNotTooLong_1.default, null, children),

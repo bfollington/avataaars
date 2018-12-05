@@ -5,7 +5,7 @@ var __extends = (this && this.__extends) || (function () {
             ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
             function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
         return extendStatics(d, b);
-    }
+    };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -34,7 +34,6 @@ function makeColor(name, color) {
     return anyComponent;
 }
 var Tanned = makeColor('Tanned', '#FD9841');
-var Yellow = makeColor('Yellow', '#F8D25C');
 var Pale = makeColor('Pale', '#FFDBB4');
 var Light = makeColor('Light', '#EDB98A');
 var Brown = makeColor('Brown', '#D08B5B');
@@ -48,7 +47,6 @@ var Skin = /** @class */ (function (_super) {
     Skin.prototype.render = function () {
         return (React.createElement(options_1.Selector, { option: options_1.SkinOption, defaultOption: Light },
             React.createElement(Tanned, { maskID: this.props.maskID }),
-            React.createElement(Yellow, { maskID: this.props.maskID }),
             React.createElement(Pale, { maskID: this.props.maskID }),
             React.createElement(Light, { maskID: this.props.maskID }),
             React.createElement(Brown, { maskID: this.props.maskID }),
